@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AF - Medicines</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_api_dbz">Dragon Ball Characters</string>
+    <string name="btn_carregar_personagens">Load Characters</string>
+    <string name="novo_med_salvo">Saved successfully!</string>
+    <string name="hora_remedio_title">Medicine time!</string>
+    <string name="hora_remedio_text">Take: %1$s</string>
+    <string name="toast_erro">Error: %1$s</string>
+    <string name="label_nome">Medicine name</string>
+    <string name="label_descricao">Description</string>
+    <string name="btn_salvar">Save</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AF - Medicamentos</string>
+    <string name="btn_add">Adicionar</string>
+    <string name="btn_carregar_personagens">Carregar Personagens</string>
+    <string name="btn_api_dbz">Personagens Dragon Ball</string>
+    <string name="novo_med_salvo">Salvo com sucesso!</string>
+    <string name="hora_remedio_title">Hora do remédio!</string>
+    <string name="hora_remedio_text">Tomar: %1$s</string>
+    <string name="toast_erro">Erro: %1$s</string>
+    <string name="label_nome">Nome do medicamento</string>
+    <string name="label_descricao">Descrição</string>
+    <string name="btn_salvar">Salvar</string>
+
+</resources>
