@@ -111,7 +111,7 @@ public class AddEditMedicineActivity extends AppCompatActivity {
 
         PendingIntent pendingIntent = PendingIntent.getBroadcast(
                 this,
-                m.getId().hashCode(), // id único
+                m.getId().hashCode(),
                 intent,
                 PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE
         );

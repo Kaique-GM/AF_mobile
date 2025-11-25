@@ -40,7 +40,7 @@ public class MedicineAdapter extends RecyclerView.Adapter<MedicineAdapter.ViewHo
                 .inflate(android.R.layout.simple_list_item_2, parent, false);
 
         CheckBox chk = new CheckBox(parent.getContext());
-        chk.setText("Tomado");
+        chk.setText(parent.getContext().getString(R.string.chk_tomado));
         if (v instanceof ViewGroup) {
             ViewGroup vg = (ViewGroup) v;
             LinearLayout wrapper = new LinearLayout(parent.getContext());
@@ -65,7 +65,13 @@ public class MedicineAdapter extends RecyclerView.Adapter<MedicineAdapter.ViewHo
         Medicine m = lista.get(pos);
 
         holder.txt1.setText(m.getNome());
-        holder.txt2.setText("Horário: " + (m.getHorario() == null ? "" : m.getHorario()));
+        holder.txt2.setText(
+                holder.itemView.getContext().getString(
+                        R.string.label_horario,
+                        (m.getHorario() == null ? "" : m.getHorario())
+                )
+        );
+
 
         holder.chkTomado.setOnCheckedChangeListener(null);
         holder.chkTomado.setChecked(m.isTomado());

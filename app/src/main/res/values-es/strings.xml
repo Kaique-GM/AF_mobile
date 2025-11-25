@@ -11,4 +11,7 @@
     <string name="label_nome">Nombre del medicamento</string>
     <string name="label_descricao">Descripción</string>
     <string name="btn_salvar">Guardar</string>
+    <string name="canal_meds_nome">Recordatorios de Medicamentos</string>
+    <string name="chk_tomado">Tomado</string>
+    <string name="label_horario">Horario: %1$s</string>
 </resources>

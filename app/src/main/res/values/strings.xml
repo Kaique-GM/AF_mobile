@@ -10,5 +10,7 @@
     <string name="label_nome">Nome do medicamento</string>
     <string name="label_descricao">Descrição</string>
     <string name="btn_salvar">Salvar</string>
-
+    <string name="canal_meds_nome">Lembretes de Medicamentos</string>
+    <string name="chk_tomado">Tomado</string>
+    <string name="label_horario">Horário: %1$s</string>
 </resources>

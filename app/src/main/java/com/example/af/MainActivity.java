@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel canal = new NotificationChannel(
                     "meds",
-                    "Lembretes de Medicamentos",
+                    getString(R.string.canal_meds_nome),
                     NotificationManager.IMPORTANCE_HIGH
             );
             NotificationManager manager = getSystemService(NotificationManager.class);

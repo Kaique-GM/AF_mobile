@@ -11,4 +11,7 @@
     <string name="label_nome">Medicine name</string>
     <string name="label_descricao">Description</string>
     <string name="btn_salvar">Save</string>
+    <string name="canal_meds_nome">Medicine Reminders</string>
+    <string name="chk_tomado">Taken</string>
+    <string name="label_horario">Time: %1$s</string>
 </resources>
